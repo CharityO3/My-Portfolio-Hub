@@ -2,7 +2,7 @@ body{
   background-color: black;
   color: white;
   padding: 48px;
-  margin-top: 8%;
+  margin-top: 15%;
  
 }
 
@@ -42,10 +42,10 @@ small{
   font-size: 14px;
 }
 
-.portfolio-links{
+/*.portfolio-links{
   margin-bottom: 50px;
   
-}
+}*/
 
 .link{
   text-decoration:none;
@@ -55,6 +55,7 @@ small{
   opacity: 0.5;
   cursor: pointer;
   transition: all 0.6s ease-in-out;
+ 
 
 }
 .link:hover {
@@ -66,4 +67,8 @@ small{
   border-top: 1px solid rgba(39, 33, 66, 0.7);
   color:grey ;
 }*/
+
+footer{
+  margin-top: 80px;
+}
 
