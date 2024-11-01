@@ -3,12 +3,13 @@ body{
   color: white;
   padding: 48px;
   margin-top: 8%;
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/050/796/019/small/dark-grunge-textured-concrete-stone-wall-background-photo.jpg");
-  background-size: cover;
+ 
 }
 
 h1 {
   margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 h1.name {
@@ -28,12 +29,13 @@ h1.name::after {
 }
 
 h2 {
-font-weight: 200;
-font-size: 24px;
-line-height: 1.6;
-font-style: inherit;
-margin-top: 50px;
-margin-bottom: 50px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Montserrat Alternates", sans-serif;
+
 }
 
 small{
@@ -41,7 +43,7 @@ small{
 }
 
 .portfolio-links{
-  margin-bottom: 65px;
+  margin-bottom: 50px;
   
 }
 
