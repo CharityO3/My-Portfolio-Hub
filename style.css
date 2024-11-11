@@ -1,9 +1,14 @@
 body{
   background-color: black;
   color: white;
-  padding: 48px;
-  margin-top: 15%;
  
+}
+
+.container{
+  margin-top: 300px;
+  max-width: 95%;
+  margin-bottom: 100px;
+  margin-left: 40px;
 }
 
 h1 {
