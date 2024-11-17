@@ -27,7 +27,7 @@ function displayEmail() {
   setTimeout(() => {
     let emailElement = document.querySelector("#email-link");
     emailElement.classList.add("custom-border");
-  }, 2000); // Delay of 1000ms (1 second)
+  }, 5000); // Delay of 1000ms (1 second)
 }
 
 let contactLink = document.querySelector("#contact");
