@@ -13,7 +13,7 @@ body{
 h1 {
   margin-bottom: 20px;
   font-size: 70px;
-  line-height: 50px;
+  line-height: 1;
 }
 
 h1.name {
@@ -28,7 +28,7 @@ h1.name::after {
   height: 2px; 
   background-color: white;
   position: absolute; 
-  bottom: -35px; 
+  bottom: -30px; 
   left: 0; 
 }
 
