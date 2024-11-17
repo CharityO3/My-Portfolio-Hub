@@ -5,12 +5,11 @@ new Typewriter("h1", {
   delay:30,
 });  
 
-function displayEmail(event){
-  event.preventDefault();
+function displayEmail(){
+  
   let emailElement = document.querySelector("#email-link");
   //emailElement.innerHTML="hello"
   emailElement.classList.add("custom-border");
-  console.log(emailElement);
 }
   
 
