@@ -22,9 +22,9 @@ h1.name::after {
   display: block; 
   width: 20%; 
   height: 2px; 
-  background-color: white; 
+  background-color: white;
   position: absolute; 
-  bottom: -8px; 
+  bottom: -35px; 
   left: 0; 
 }
 
