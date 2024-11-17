@@ -5,7 +5,7 @@ new Typewriter("h1", {
   delay:30,
 });  
 
-function displayEmail(){
+/*function displayEmail(){
   
   let emailElement = document.querySelector("#email-link");
   //emailElement.innerHTML="hello"
@@ -20,7 +20,19 @@ function displayEmail(){
 
 
 let contactLink = document.querySelector("#contact");
+contactLink.addEventListener("click", displayEmail);*/
+
+function displayEmail() {
+  // Add a delay before applying the custom border
+  setTimeout(() => {
+    let emailElement = document.querySelector("#email-link");
+    emailElement.classList.add("custom-border");
+  }, 2000); // Delay of 1000ms (1 second)
+}
+
+let contactLink = document.querySelector("#contact");
 contactLink.addEventListener("click", displayEmail);
+
 
 
 // Function to highlight the email link on the homepage
