@@ -74,7 +74,6 @@ small{
   .social-link{
     text-decoration:none;
     margin: 0 16px 0 0;
-    text-decoration: none;
     color: #eee;
     opacity: 0.5;
     cursor: pointer;
@@ -119,4 +118,10 @@ strong{
   height: 80%; 
   max-width: 100%;
   background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  }
+
+  .custom-border{
+    border: 2px solid #E5E4E2 !important;
+    padding: 5px !important;
+    border-radius: 4px;
   }
