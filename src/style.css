@@ -5,6 +5,13 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media(max-width: 600px) {
+  h1.name{
+    font-size: 50px;
+  }
+
+}
+
 body{
   margin-top: 100px;
  
@@ -38,8 +45,7 @@ h2 {
   line-height: 1.6;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-family: "Montserrat Alternates", sans-serif;
-  
+  font-family: "Montserrat Alternates", sans-serif;  
 }
 
 h3 {
@@ -50,8 +56,6 @@ h3 {
 small{
   font-size: 14px;
 }
-
-
 
 .container{
   margin-top: 300px;
@@ -67,37 +71,38 @@ small{
 
 }*/
 /*.portfolio-links{
-  margin-bottom: 50px;
+margin-bottom: 50px;
+
+}*/
+
+.social-link{
+  text-decoration:none;
+  margin: 0 16px 0 0;
+  color: #eee;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
   
+  
+}
+.social-link:hover {
+  color: white; 
+  opacity: 1;   
+}
+
+/*.continuous-improvement{
+  margin-top: 80px;
+  border-top: 1px solid rgba(39, 33, 66, 0.7);
+  color:grey ;
   }*/
   
-  .social-link{
-    text-decoration:none;
-    margin: 0 16px 0 0;
-    color: #eee;
-    opacity: 0.5;
-    cursor: pointer;
-    transition: all 0.6s ease-in-out;
-    
-    
-  }
-  .social-link:hover {
-    color: white; 
-    opacity: 1;   
-  }
-  /*.continuous-improvement{
-    margin-top: 80px;
-    border-top: 1px solid rgba(39, 33, 66, 0.7);
-    color:grey ;
-    }*/
-    
-    footer{
-      margin-top: 80px;
-    }
-    
-    /* .navbar-:hover{ 
-      
-    background-color: grey;
+footer{
+  margin-top: 80px;
+}
+  
+/* .navbar-:hover{ 
+  
+background-color: grey;
 }*/
 
 .primary-link{
@@ -118,27 +123,26 @@ strong{
   height: 80%; 
   max-width: 100%;
   background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
-  }
+}
 
-  .custom-border{
-    border: 2px solid #E5E4E2 !important;
-    padding: 5px !important;
-    border-radius: 4px;
-  }
+.custom-border{
+  border: 2px solid #E5E4E2 !important;
+  padding: 5px !important;
+  border-radius: 4px;
+}
 
-  @keyframes blink-animation{
-    to{
-      visibility: hidden;
-    }
+@keyframes blink-animation{
+  to{
+    visibility: hidden;
   }
-  
-  @-webkit-keyframes blink-animation{
-    to{
-      visibility: hidden;
-    }
+}
+
+@-webkit-keyframes blink-animation{
+  to{
+    visibility: hidden;
   }
-  
-  .generating{
-    animation: blink-animation 1s steps(5, start)  infinite;
-  }
-  
+}
+
+.generating{
+  animation: blink-animation 1s steps(5, start)  infinite;
+}

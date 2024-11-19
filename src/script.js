@@ -6,13 +6,11 @@ new Typewriter("h1", {
 });  
 
 function displayEmail(event){
-  event.preventDefault();
-  
   let emailElement = document.querySelector("#email-link");
   emailElement.classList.add("custom-border", "generating");
   setTimeout(() => {
     emailElement.classList.remove("generating");
-  }, 3000); // 5000ms = 5 seconds
+  }, 6000); // 5000ms = 5 seconds
 }
   
 
