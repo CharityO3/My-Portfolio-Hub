@@ -149,7 +149,7 @@ strong{
 
 @media(max-width: 576px) {
   h1.name{
-    font-size: 50px;
+    font-size: 30px;
   }
 
   h1{
@@ -170,7 +170,9 @@ strong{
   .img-thumbnail{
     padding: 20px;
     max-width: 400px;
-    height: 70%; 
+    height: 60%; 
+    margin-top: 0;
+    border: none;
   }
 
   .image-link {
