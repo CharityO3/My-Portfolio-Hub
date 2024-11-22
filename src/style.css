@@ -81,9 +81,12 @@ small{
   opacity: 0.5;
   cursor: pointer;
   transition: all 0.6s ease-in-out;
-  
-  
 }
+
+.social-links a{
+  margin: 0 20px;
+}
+
 .social-link:hover {
   color: white; 
   opacity: 1;   
