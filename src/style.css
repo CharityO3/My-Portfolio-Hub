@@ -13,26 +13,6 @@ body{
   overflow-x: hidden; 
 }
 
-.about-page-body{
-  margin: 100px 0;
-  color: black;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1); /* Slightly enlarge */
-  }
-  100% {
-    transform: scale(1); /* Return to original size */
-  }
-}
-
-
-
-
 h1 {
   margin-bottom: 20px;
   font-size: 70px;
@@ -91,7 +71,24 @@ small{
   background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   margin-top: 100px;
   
-  }*/
+}*/
+
+.about-page-body{
+  margin: 100px 0;
+  color: black;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Slightly enlarge */
+  }
+  100% {
+    transform: scale(1); /* Return to original size */
+  }
+}
 
 .content-image{
   width: 50%;
@@ -195,6 +192,7 @@ strong{
 @media(max-width: 576px) {
   h1.name{
     font-size: 30px;
+    line-height: 1.5;
   }
 
   h1{
