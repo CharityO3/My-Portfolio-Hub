@@ -6,9 +6,32 @@
 }
 
 body{
-  margin: 100px 0;
-  
+  margin: 0;
+  background-color: black;
+  color: white; 
+  height:100%;
+  overflow-x: hidden; 
 }
+
+.about-page-body{
+  margin: 100px 0;
+  color: black;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Slightly enlarge */
+  }
+  100% {
+    transform: scale(1); /* Return to original size */
+  }
+}
+
+
+
 
 h1 {
   margin-bottom: 20px;
@@ -69,6 +92,25 @@ small{
   margin-top: 100px;
   
   }*/
+
+.content-image{
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: none;
+  background-size: cover;
+  background-position: right right;
+  background-repeat: no-repeat;
+  z-index: -1;
+  animation: scale 5s ease-in-out;
+  transition: all 1s ease-in-out;
+  background-image: url("/images/my-photo.jpeg");
+  filter: opacity(0.4); 
+  transform: translateZ(0px);
+}
+
   /*.portfolio-links{
     margin-bottom: 50px;
     
@@ -178,8 +220,8 @@ strong{
     margin: 300px auto;
     max-width: 95%;
     margin-bottom: -50px;
-    
-    }
+  }
+
   .social-links{
     text-align: center;
   }
@@ -211,5 +253,17 @@ strong{
   .dog-image{
     margin-top: 18px;
   }
-
+  
 }
+
+@media (max-width: 1040px) {
+  .content-image {
+    width: 100%;  /* Full width */
+    height: 100vh;  /* Full height */
+    background-size: cover;  /* Image covers the screen */
+    background-position: center center;  /* Image stays centered */
+    background-repeat: no-repeat;  /* Prevents repeating */
+  }
+}
+
+
