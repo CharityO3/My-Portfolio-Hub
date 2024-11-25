@@ -249,7 +249,7 @@ strong{
     margin: 0 60px;
     /*padding: 20px 0px; */
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .dog-image{
@@ -259,7 +259,7 @@ strong{
 }
 
 @media (max-width: 1040px) {
-  .content-image {
+  .index-content-image {
     width: 100%;  /* Full width */
     height: 100vh;  /* Full height */
     background-size: cover;  /* Image covers the screen */
