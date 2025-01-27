@@ -67,6 +67,11 @@ p{
   font-family: var(--default-font-family);
 }
 
+a{
+  font-family: var(--default-font-family);
+
+}
+
 strong{
   font-size: 30px;
 }
@@ -105,6 +110,7 @@ footer .portfolio-links a{
 
 footer .portfolio-links a:hover{
   color: white;
+  background-color: #272044;
 }
 
 .content div{
@@ -123,22 +129,15 @@ footer .portfolio-links a:hover{
   margin-left: 40px;
 }
 
-/*.about-html{
-  /*background-color: var(--secondary-color);
-  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  margin-top: 100px;
-  
-}*/
-
 @keyframes scale {
   0% {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1); /* Slightly enlarge */
+    transform: scale(1.1); 
   }
   100% {
-    transform: scale(1); /* Return to original size */
+    transform: scale(1); 
   }
 }
 
@@ -160,11 +159,6 @@ footer .portfolio-links a:hover{
   transform: translateZ(0px);
 }
 
-  /*.portfolio-links{
-    margin-bottom: 50px;
-    
-    }*/
-    
 .nav-item a{
   text-decoration:none;
   margin: 0 20px;
@@ -184,18 +178,6 @@ footer .portfolio-links a:hover{
   margin-bottom: -95px;
 }
 
-/*.continuous-improvement{
-  margin-top: 80px;
-  border-top: 1px solid rgba(39, 33, 66, 0.7);
-  color:grey ;
-  }*/
-      
-
-  /* .navbar-:hover{ 
-    
-  background-color: grey;
-  }*/
-
 .view-portfolio-link{
   border-radius: 20px;
   padding: 20px 15px;
@@ -204,13 +186,10 @@ footer .portfolio-links a:hover{
   box-shadow: var(--box-shadow);
   color: white;
   opacity: 0.8;
-
-}
   
+}
+
 .application-link{
-  display: block;
-  text-align: center;
-  margin: 0 auto;
   font-weight: 700;
   width: fit-content;
   border-radius: 20px;
@@ -218,17 +197,18 @@ footer .portfolio-links a:hover{
   text-decoration: none;
   background-color: #272044;
   box-shadow: var(--box-shadow);
-  color: white;
+  color: #f0f0f0;
   opacity: 0.8;
 }
 
 .application-link:hover{
-  background-color: #6358ff;
+  background-color: #3a3299;
+  color: #dcdcdc;
   opacity: 0.9;
 }
 
 .view-portfolio-link:hover{
-  background-color: #6358ff;
+  background-color: #3a3299;
   opacity: 0.9;
 }
 
@@ -237,7 +217,6 @@ footer .portfolio-links a:hover{
   height: auto; 
   max-width: 100%;
   background: #E6E6FA;
-  /* background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
 }
 
 .custom-border{
@@ -294,6 +273,20 @@ footer .portfolio-links a:hover{
   animation: blink-animation 1s steps(5, start)  infinite;
 }
 
+.repo-icon a{
+  margin-right: 8px;
+}
+
+.repo-icon a:last-child {
+  margin-right: 0;
+}
+
+.repo-links{
+  text-decoration:none;
+  color: #272044;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
 
 @media(max-width: 768px) {
   h1.name{
@@ -335,8 +328,7 @@ footer .portfolio-links a:hover{
     text-align: center;
     margin: 10px;
   }
-
-
+  
   .content{
     text-align: center;
     margin: 30px;
@@ -358,22 +350,25 @@ footer .portfolio-links a:hover{
     width: fit-content;
     height: auto;
     margin: 0 auto;
-  }  
+  }
+  .improvement small{
+    font-size: 8.5px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 1040px) {
   .index-content-image {
-    width: 100%;  /* Full width */
-    height: 100vh;  /* Full height */
-    background-size: cover;  /* Image covers the screen */
-    background-position: center center;  /* Image stays centered */
-    background-repeat: no-repeat;  /* Prevents repeating */
+    width: 100%;  
+    height: 100vh;  
+    background-size: cover;  
+    background-position: center center; 
+    background-repeat: no-repeat;  
   }
 
   .my-image{
     margin-top: 60px;
   }
-
 
 }
 
