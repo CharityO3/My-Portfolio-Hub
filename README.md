@@ -23,6 +23,6 @@ For any inquiries or collaboration opportunities, feel free to connect via:
 
 ---
 ## Author
-Coded by [Charity Orhoridiohwo](https://www.linkedin.com/in/charityorhoridiohwo/). Open-sourced on [GitHub](https://github.com/CharityO3/My-Portfolio-Hub) and hosted on [Squarespace](https://www.charityorhoridiohwo.com). Contributions are welcome!
+Coded by [Charity Orhoridiohwo](https://www.linkedin.com/in/charityorhoridiohwo/). Open-sourced on [GitHub](https://github.com/CharityO3/My-Portfolio-Hub) and hosted with [Squarespace](https://www.charityorhoridiohwo.com). Contributions are welcome!
 
 
