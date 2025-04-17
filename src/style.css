@@ -288,6 +288,7 @@ footer .portfolio-links a:hover{
   transition: all 0.6s ease-in-out;
 }
 
+
 @media(max-width: 768px) {
   h1.name{
     font-size: 30px;
