@@ -256,6 +256,32 @@ footer .portfolio-links a:hover{
   font-family: var(--default-font-family);
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.my-mantra {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-style: italic;
+  font-size: 8px;
+  font-weight: 600;
+  color: #fbc02d;
+  padding: 4px 6px;
+  border-radius: 5px;
+  background:rgba(0, 0, 0, 0.7);  
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 
 @keyframes blink-animation{
   to{
@@ -352,10 +378,24 @@ footer .portfolio-links a:hover{
     height: auto;
     margin: 0 auto;
   }
+  
   .improvement small{
     font-size: 8.5px;
     text-align: center;
   }
+
+  .my-mantra {
+    left: 50%;
+    right: auto;
+    font-size: 5px;
+    transform: translateX(-50%);
+    bottom: 10px;
+    text-align: center;
+    width: auto;
+    padding: 2px 4px;
+    max-width: 90%;
+  }
+ 
 }
 
 @media (max-width: 1040px) {
