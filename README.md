@@ -18,7 +18,7 @@ This is my personal portfolio website. This website showcases my skills, project
 
 ## Contact
 For any inquiries or collaboration opportunities, feel free to connect via:
-- **LinkedIn**: [Charity Orhoridiohwo](https://www.linkedin.com/in/charity-orhoridiohwo/)
+- **LinkedIn**: [Charity Orhoridiohwo](https://www.linkedin.com/in/charityorhoridiohwo/)
 - **Email**: [charityorhoridiohwo@gmail.com](mailto:charityorhoridiohwo@gmail.com)
 
 ---
